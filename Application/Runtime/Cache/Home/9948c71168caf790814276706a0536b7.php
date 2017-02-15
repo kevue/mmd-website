@@ -116,7 +116,7 @@
 					<li><a class="hvr-sweep-to-bottom About" href="About">About</a></li> 
 					<li><a class="hvr-sweep-to-bottom Services" href="Services">Services</a></li> 
 					<!-- <li><a class="hvr-sweep-to-bottom" href="Typo">Typo</a></li> -->
-					<li><a class="hvr-sweep-to-bottom Gallery" href="Gallery">Gallery</a></li> 
+					<!-- <li><a class="hvr-sweep-to-bottom Gallery" href="Gallery">Gallery</a></li> --> 
 					<li><a class="hvr-sweep-to-bottom ContactUs" href="ContactUs">ContactUs</a></li> 
 				 </ul>
 					<!-- script-for-menu -->
@@ -223,7 +223,7 @@
 				<p>Temporibus autem quibusdam et aut offic</p>
 			</div>
 			<div class="col-md-3 latest-grid">
-				<img src="Public/images/l.jpg" alt="" class="img-responsive">
+				<img src="Public/images/l3.jpg" alt="" class="img-responsive">
 				<p>Temporibus autem quibusdam et aut offic</p>
 			</div>
 			<div class="col-md-3 latest-grid">

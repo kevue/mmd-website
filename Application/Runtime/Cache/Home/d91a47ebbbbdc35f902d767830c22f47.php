@@ -112,15 +112,17 @@
 	    <div class="top-navg">
 	    	           <span class="menu"> <img src="Public/images/icon.png" alt=""/></span>
 				<ul class="res">
-				    <li><a href="/" class="active hvr-sweep-to-bottom">Home</a></li> 
-					<li><a class="hvr-sweep-to-bottom" href="About">About</a></li> 
-					<li><a class="hvr-sweep-to-bottom" href="Services">Services</a></li> 
+				    <li><a href="/" class="hvr-sweep-to-bottom Home">Home</a></li> 
+					<li><a class="hvr-sweep-to-bottom About" href="About">About</a></li> 
+					<li><a class="hvr-sweep-to-bottom Services" href="Services">Services</a></li> 
 					<!-- <li><a class="hvr-sweep-to-bottom" href="Typo">Typo</a></li> -->
-					<li><a class="hvr-sweep-to-bottom" href="Gallery">Gallery</a></li> 
-					<li><a class="hvr-sweep-to-bottom" href="ContactUs">ContactUs</a></li> 
+					<!-- <li><a class="hvr-sweep-to-bottom Gallery" href="Gallery">Gallery</a></li> --> 
+					<li><a class="hvr-sweep-to-bottom ContactUs" href="ContactUs">ContactUs</a></li> 
 				 </ul>
 					<!-- script-for-menu -->
 						 <script>
+						   var page = window.location.pathname.substring(1) || 'Home';
+						   $('.'+page).css('background-color','#956295').css('color','#FFF');
 						   $( "span.menu" ).click(function() {
 							 $( "ul.res" ).slideToggle( 300, function() {
 							 // Animation complete.
@@ -154,7 +156,7 @@
 				<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish.
 					On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish.</p>
 				</div>
-				<div class="comments-top">
+				<!-- <div class="comments-top">
 					<h3>Comments</h3>
 					<div class="media">
 						<div class="media-body">
@@ -178,8 +180,8 @@
 							</div>
 							
 						</div>
-					</div>
-					<div class="comment-bottom">
+					</div> -->
+					<!-- <div class="comment-bottom">
 						<h3>Leave a Comment</h3>
 						<form>	
 							<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
@@ -188,7 +190,7 @@
 							<textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">Message</textarea>
 							<input type="submit" value="Send">
 						</form>
-					</div>
+					</div> -->
 				</div>	
 			</div>			
 			<!--//single-->

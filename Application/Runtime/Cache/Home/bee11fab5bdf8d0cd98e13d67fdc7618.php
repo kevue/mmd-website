@@ -112,15 +112,17 @@
 	    <div class="top-navg">
 	    	           <span class="menu"> <img src="Public/images/icon.png" alt=""/></span>
 				<ul class="res">
-				    <li><a href="/" class="active hvr-sweep-to-bottom">Home</a></li> 
-					<li><a class="hvr-sweep-to-bottom" href="About">About</a></li> 
-					<li><a class="hvr-sweep-to-bottom" href="Services">Services</a></li> 
+				    <li><a href="/" class="hvr-sweep-to-bottom Home">Home</a></li> 
+					<li><a class="hvr-sweep-to-bottom About" href="About">About</a></li> 
+					<li><a class="hvr-sweep-to-bottom Services" href="Services">Services</a></li> 
 					<!-- <li><a class="hvr-sweep-to-bottom" href="Typo">Typo</a></li> -->
-					<li><a class="hvr-sweep-to-bottom" href="Gallery">Gallery</a></li> 
-					<li><a class="hvr-sweep-to-bottom" href="ContactUs">ContactUs</a></li> 
+					<li><a class="hvr-sweep-to-bottom Gallery" href="Gallery">Gallery</a></li> 
+					<li><a class="hvr-sweep-to-bottom ContactUs" href="ContactUs">ContactUs</a></li> 
 				 </ul>
 					<!-- script-for-menu -->
 						 <script>
+						   var page = window.location.pathname.substring(1) || 'Home';
+						   $('.'+page).css('background-color','#956295').css('color','#FFF');
 						   $( "span.menu" ).click(function() {
 							 $( "ul.res" ).slideToggle( 300, function() {
 							 // Animation complete.
