@@ -56,7 +56,7 @@
 		<div class="header-main">
 			<div class="head-left">
 				<div class="phone">
-					<p>Phone<span class="ph-numb">021 5943 9804</span></p>
+					<p >电话<span class="ph-numb">021 5943 9804</span></p>
 				</div>
 				<!-- <div class="search">		
 					<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i> </i></a>
@@ -74,7 +74,7 @@
 			</div>
 			<div class="header-right">
 				<div class="logo">
-					<h1><a href="/">shanghai zhangkaige ltd.</a></h1>
+					<h1><a href="/">UpSea zhangkaige ltd.</a></h1>
 				</div>
 				<!-- <div class="header-login">
 					<div class="top-nav-right">
@@ -112,12 +112,12 @@
 	    <div class="top-navg">
 	    	           <span class="menu"> <img src="Public/images/icon.png" alt=""/></span>
 				<ul class="res">
-				    <li><a href="/" class="hvr-sweep-to-bottom Home">Home</a></li> 
-					<li><a class="hvr-sweep-to-bottom About" href="About">About</a></li> 
-					<li><a class="hvr-sweep-to-bottom Services" href="Services">Services</a></li> 
+				    <li><a href="/" class="hvr-sweep-to-bottom Home">首页</a></li> 
+					<li><a class="hvr-sweep-to-bottom About" href="About">关于我们</a></li> 
+					<li><a class="hvr-sweep-to-bottom Services" href="Services">水果馆</a></li> 
 					<!-- <li><a class="hvr-sweep-to-bottom" href="Typo">Typo</a></li> -->
-					<li><a class="hvr-sweep-to-bottom Gallery" href="Gallery">Gallery</a></li> 
-					<li><a class="hvr-sweep-to-bottom ContactUs" href="ContactUs">ContactUs</a></li> 
+					<li><a class="hvr-sweep-to-bottom Gallery" href="Gallery">水果馆</a></li> 
+					<li><a class="hvr-sweep-to-bottom ContactUs" href="ContactUs">联系我们</a></li> 
 				 </ul>
 					<!-- script-for-menu -->
 						 <script>
@@ -143,26 +143,26 @@
 <div class="contact">
 	<div class="container">
 		<div class="contact-top">
-			<h3>Contact Us</h3>
+			<h3>联系我们</h3>
 			<p> Letraset and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 		</div>
 		<div class="map">
-			<h4>GET IN TOUCH</h4>
+			<h4>公司地址</h4>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127640.75918330808!2d103.8466694772479!3d1.3111268075660079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da11238a8b9375%3A0x887869cf52abf5c4!2sSingapore!5e0!3m2!1sen!2sin!4v1436965675589"> </iframe>
 		</div>
 		<div class="contact-infom">
-			<h4>CONTACT INFO</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sheets containing Lorem Ipsum passages, 
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.It was popularised in the 1960s with the release of Letraset
+			<h4>您的联系方式</h4>
+			<p>留下您的联系方式, 
+				方便我们洗劫or incididunt ut labore et dolore magna aliqua.It was popularised in the 1960s with the release of Letraset
 				and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 			</div>	
 			<div class="contact-form">
 				<form>
-					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-					<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-					<input type="text" value="Telephone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone';}" required="">
-					<textarea type="text"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-					<input type="submit" value="Submit" >
+					<input type="text" value="姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="email" value="邮箱" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input type="text" value="电话" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone';}" required="">
+					<textarea type="text"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">备注...</textarea>
+					<input type="submit" value="提交" >
 				</form>
 			</div>
 			
@@ -173,13 +173,13 @@
 	<div class="container">
 		<div class="footer-main">
 			  <div class="col-md-4 ftr-grd">
-			  	 <h3>Get in Touch</h3>
-			  	 <p>8901 ibero  Road</p>
-			  	 <p>Nam libero tempore</p>
-			  	 <p>Phone: +148 5746 415</p>
+			  	 <h3>联系我们</h3>
+			  	 <p>小娘们的报亭</p>
+			  	 <p>小黑屋3号</p>
+			  	 <p>电话: +148 5746 415</p>
 			  </div>
 			  <div class="col-md-4 ftr-grd">
-			  	 <h3>Follow Us</h3>
+			  	 <h3>关注我们</h3>
 			  	 <ul>
 			  	 	<li><a href="#"><span class="fa"> </span></a></li>
 			  	 	<li><a href="#"><span class="tw"> </span></a></li>
@@ -194,7 +194,7 @@
 			  </div>
 			<div class="clearfix"> </div>
 			<div class="copy-right">
-			<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title=""></a> - Collect from <a href="http://www.cssmoban.com/" title="" target="_blank"></a></p>
+			<p>Copyright &copy; 1949-2017&nbsp;伤害凯歌国际贸易公司版权所有<a href="http://www.cssmoban.com/" target="_blank" title=""></a></a></p>
 		   </div>
 		</div>
 	</div>

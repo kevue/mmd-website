@@ -56,7 +56,7 @@
 		<div class="header-main">
 			<div class="head-left">
 				<div class="phone">
-					<p>Phone<span class="ph-numb">021 5943 9804</span></p>
+					<p >电话<span class="ph-numb">021 5943 9804</span></p>
 				</div>
 				<!-- <div class="search">		
 					<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i> </i></a>
@@ -74,7 +74,7 @@
 			</div>
 			<div class="header-right">
 				<div class="logo">
-					<h1><a href="/">shanghai zhangkaige ltd.</a></h1>
+					<h1><a href="/">UpSea zhangkaige ltd.</a></h1>
 				</div>
 				<!-- <div class="header-login">
 					<div class="top-nav-right">
@@ -112,12 +112,12 @@
 	    <div class="top-navg">
 	    	           <span class="menu"> <img src="Public/images/icon.png" alt=""/></span>
 				<ul class="res">
-				    <li><a href="/" class="hvr-sweep-to-bottom Home">Home</a></li> 
-					<li><a class="hvr-sweep-to-bottom About" href="About">About</a></li> 
-					<li><a class="hvr-sweep-to-bottom Services" href="Services">Services</a></li> 
+				    <li><a href="/" class="hvr-sweep-to-bottom Home">首页</a></li> 
+					<li><a class="hvr-sweep-to-bottom About" href="About">关于我们</a></li> 
+					<li><a class="hvr-sweep-to-bottom Services" href="Services">水果馆</a></li> 
 					<!-- <li><a class="hvr-sweep-to-bottom" href="Typo">Typo</a></li> -->
-					<li><a class="hvr-sweep-to-bottom Gallery" href="Gallery">Gallery</a></li> 
-					<li><a class="hvr-sweep-to-bottom ContactUs" href="ContactUs">ContactUs</a></li> 
+					<li><a class="hvr-sweep-to-bottom Gallery" href="Gallery">水果馆</a></li> 
+					<li><a class="hvr-sweep-to-bottom ContactUs" href="ContactUs">联系我们</a></li> 
 				 </ul>
 					<!-- script-for-menu -->
 						 <script>
@@ -144,11 +144,11 @@
 	<div class="container">
 		<div class="about-main">
 			<div class="col-md-4 about-left">
-				<h3>About us</h3>
+				<h3>关于我们</h3>
 				<a href="Content"><img src="Public/images/ab.jpg" alt=""></a>
 			</div>
 			<div class="col-md-4 about-left">
-				<h3>Why choose us</h3>
+				<h3>为什么选择伤害凯歌</h3>
 				<h4>scrambled it to make a type specimen</h4>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
 				<h4>scrambled it to make a type specimen</h4>
@@ -157,7 +157,7 @@
 				<p> It has survivednot only five centuries, but also the leap into electronic typesetting.</p>
 			</div>
 			<div class="col-md-4 about-left">
-				<h3>Job opportunities</h3>
+				<h3>人才招聘</h3>
 				<h4>Typi non habent claritatem</h4>
 				<p>On the other hand, we denounce with righteous indignation and dislike men.</p>
 				<ul>
@@ -176,7 +176,7 @@
 <div class="histort">
 	<div class="container">
 		<div class="history-main">
-			<h3>Our History</h3>
+			<h3>壮大之路</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione</p>
 			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
 		</div>
@@ -185,7 +185,7 @@
 <div class="team">
 	<div class="container">
 		<div class="team-main" > 
-			<h3>Our Team</h3>
+			<h3>我们的团队</h3>
 			<div class="col-md-3 team-grids wow bounceIn" data-wow-delay="0.4s">
 				<img src="Public/images/t4.jpg" alt=""/>
 			</div>
@@ -208,13 +208,13 @@
 	<div class="container">
 		<div class="footer-main">
 			  <div class="col-md-4 ftr-grd">
-			  	 <h3>Get in Touch</h3>
-			  	 <p>8901 ibero  Road</p>
-			  	 <p>Nam libero tempore</p>
-			  	 <p>Phone: +148 5746 415</p>
+			  	 <h3>联系我们</h3>
+			  	 <p>小娘们的报亭</p>
+			  	 <p>小黑屋3号</p>
+			  	 <p>电话: +148 5746 415</p>
 			  </div>
 			  <div class="col-md-4 ftr-grd">
-			  	 <h3>Follow Us</h3>
+			  	 <h3>关注我们</h3>
 			  	 <ul>
 			  	 	<li><a href="#"><span class="fa"> </span></a></li>
 			  	 	<li><a href="#"><span class="tw"> </span></a></li>
@@ -229,7 +229,7 @@
 			  </div>
 			<div class="clearfix"> </div>
 			<div class="copy-right">
-			<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title=""></a> - Collect from <a href="http://www.cssmoban.com/" title="" target="_blank"></a></p>
+			<p>Copyright &copy; 1949-2017&nbsp;伤害凯歌国际贸易公司 版权所有<a href="http://www.cssmoban.com/" target="_blank" title=""></a></a></p>
 		   </div>
 		</div>
 	</div>

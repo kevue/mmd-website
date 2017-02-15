@@ -3,18 +3,18 @@ h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
- font-family: 'Oxygen-Regular';
+ font-family: 'Microsoft YaHei';
    font-size: 100%;
    background:#fff; 
 }
-@font-face {
-    font-family: 'Viga-Regular';
+/*@font-face {
+    font-family: 'Microsoft YaHei';
     src:url(../fonts/Viga-Regular.ttf) format('truetype');
 }
 @font-face {
-    font-family:  'Oxygen-Regular';
+    font-family:  'Microsoft YaHei';
     src:url(../fonts/Oxygen-Regular.ttf) format('truetype');
-}
+}*/
 a {
   text-decoration: none;
 }
@@ -87,7 +87,7 @@ span.menu {
 }
 .logo h1 {
   font-size: 2.5em;
-  font-family: 'Viga-Regular';
+  /*font-family: 'Viga-Regular';*/
   margin: 0em;
 }
 .logo h1 a{
@@ -376,7 +376,7 @@ input:focus {
   width: 100%;
   margin: 0 auto;
   padding-bottom: 0.3em;
-  font-family: 'Viga-Regular';
+  /*font-family: 'Viga-Regular';*/
 }
 .banner-main p {
   font-size: 0.95em;
@@ -421,13 +421,13 @@ span.glyphicon.glyphicon-grain {
   font-size: 1em;
   font-weight: 500;
   color: #956295;
-  font-family: 'Viga-Regular';
+  /*font-family: 'Viga-Regular';*/
 }
 .bann-grid h3 {
   font-size: 1.5em;
   font-weight: 500;
   color: #000;
-  font-family: 'Viga-Regular';
+  /*font-family: 'Viga-Regular';*/
 }
 .bann-grid p {
   font-size: 0.95em;
@@ -560,14 +560,14 @@ span.glyphicon.glyphicon-eye-open {
   font-weight: 500;
   color: #956295;
   margin: 0.5em 0em 0.8em 0em;
-  font-family:'Viga-Regular';
+  /*font-family:'Viga-Regular';*/
 }
 .wedo-grid h4 {
   font-size: 1.2em;
   font-weight: 500;
   color: #f4d638;
   line-height:1.5em;
-  font-family:'Viga-Regular';
+  /*font-family:'Viga-Regular';*/
 }
 .wedo-grid p {
   font-size: 0.95em;
@@ -660,7 +660,7 @@ span.glyphicon.glyphicon-circle-arrow-right:hover {
   font-size: 2em;
   color: #FFFFFF;
   margin: 0em 0em 0.6em 0em;
-  font-family:'Viga-Regular';
+  /*font-family:'Viga-Regular';*/
 }
 .ftr-grd p {
   font-size: 0.95em;
@@ -752,14 +752,14 @@ span.glyphicon.glyphicon-circle-arrow-right:hover {
 	font-weight: 400;
 	color: #956295;
 	margin: 0px 0px 15px 0px;
-	font-family:'Viga-Regular';
+	/*font-family:'Viga-Regular';*/
 }
 .about-left h4 {
 	font-size: 1.2em;
 	font-weight: 400;
 	color: #413F3F;
 	margin: 0px 0px 5px 0px;
-	font-family:'Viga-Regular';
+	/*font-family:'Viga-Regular';*/
 }
 .about-left p {
 	font-size: 0.95em;
@@ -773,7 +773,7 @@ span.glyphicon.glyphicon-circle-arrow-right:hover {
 	font-weight: 500;
 	color: #000;
 	margin: 0px 0px 12px 13px;
-	font-family:'Viga-Regular';
+	/*font-family:'Viga-Regular';*/
 }
 .team {
 	padding-bottom: 4em;
@@ -809,7 +809,7 @@ span.glyphicon.glyphicon-circle-arrow-right:hover {
   font-weight: 400;
   color: #f4d638;
   margin: 0px 0px 15px 0px;
-  font-family:'Viga-Regular';
+  /*font-family:'Viga-Regular';*/
 }
 .histort p {
   font-size: 0.95em;
@@ -823,7 +823,7 @@ span.glyphicon.glyphicon-circle-arrow-right:hover {
 /*--single--*/
 .single-grid h4{
 	font-size:1.5em;
-	font-family:'Viga-Regular';
+	/*font-family:'Viga-Regular';*/
 	margin: 0.7em 0;
 	color:#956295;
 }
@@ -842,7 +842,7 @@ span.glyphicon.glyphicon-circle-arrow-right:hover {
 .comments-top h3,.comment-bottom h3{
 	font-size:2.5em;
 	color:#f4d638;
-	font-family:'Viga-Regular';
+	/*font-family:'Viga-Regular';*/
 	 margin-bottom: 0.5em;
 }
 .single {
@@ -851,7 +851,7 @@ span.glyphicon.glyphicon-circle-arrow-right:hover {
 h4.media-heading{
 	font-size:1.5em;
 	color:#956295;
-	font-family:'Viga-Regular';
+	/*font-family:'Viga-Regular';*/
 }
 .media-body p{
 	color: #7c7c7c;
@@ -933,7 +933,7 @@ i.glyphicon.glyphicon-comment {
   font-weight: 400;
   color: #956295;
   margin: 0px 0px 15px 0px;
-  font-family:'Viga-Regular';
+  /*font-family:'Viga-Regular';*/
 }
 .services-top p {
   font-size: 0.95em;
@@ -948,7 +948,7 @@ i.glyphicon.glyphicon-comment {
   font-weight: 400;
   color: #000;
   margin: 1.2em 0em 0.5em 0em ;
-  font-family:'Viga-Regular';
+  /*font-family:'Viga-Regular';*/
 }
 .main-serv-grid p {
   font-size: 0.95em;
@@ -964,14 +964,14 @@ i.glyphicon.glyphicon-comment {
   font-weight: 300;
   color: #000;
   margin: 0px 0px 15px 13px;
-  font-family:'Viga-Regular';
+  /*font-family:'Viga-Regular';*/
 }
 .other-serv-grid h4 {
   font-size: 1.1em;
   font-weight: 400;
   color: #956295;
   margin: 0.5em 0em 0.5em 0em;
-  font-family:'Viga-Regular';
+  /*font-family:'Viga-Regular';*/
 }
 .other-serv-grid p {
   font-size: 0.95em;
@@ -1010,7 +1010,7 @@ h3.typo1 {
     font-size: 2.5em;
   color: #956295;
   text-align: center;
-   font-family:'Viga-Regular';
+   /*font-family:'Viga-Regular';*/
 }
 /*--//typo--*/
 /*--gallery start here--*/
@@ -1029,7 +1029,7 @@ h3.typo1 {
   font-weight: 400;
   color: #956295;
   margin: 0px 0px 15px 0px;
-  font-family:'Viga-Regular';
+  /*font-family:'Viga-Regular';*/
 }
 .gallery-top p {
   font-size: 0.95em;
@@ -1071,7 +1071,7 @@ h3.typo1 {
   font-weight: 500;
   margin: 0 0 0.8em 0;
   letter-spacing: 1px;
-  font-family:'Viga-Regular';
+  /*font-family:'Viga-Regular';*/
 }
 .contact-infom h4 {
   color: #000;
@@ -1079,13 +1079,13 @@ h3.typo1 {
   font-weight: 500;
   margin: 0 0 0.8em 0;
   letter-spacing: 1px;
-  font-family:'Viga-Regular';
+  /*font-family:'Viga-Regular';*/
 }
 .contact-top h3 {
   font-size: 2.5em;
   font-weight: 400;
   color: #956295;
-  font-family:'Viga-Regular';
+  /*font-family:'Viga-Regular';*/
 }
 .contact-top p {
   font-size: 0.95em;

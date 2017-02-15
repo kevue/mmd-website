@@ -56,7 +56,7 @@
 		<div class="header-main">
 			<div class="head-left">
 				<div class="phone">
-					<p>Phone<span class="ph-numb">021 5943 9804</span></p>
+					<p >电话<span class="ph-numb">021 5943 9804</span></p>
 				</div>
 				<!-- <div class="search">		
 					<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i> </i></a>
@@ -74,7 +74,7 @@
 			</div>
 			<div class="header-right">
 				<div class="logo">
-					<h1><a href="/">shanghai zhangkaige ltd.</a></h1>
+					<h1><a href="/">UpSea zhangkaige ltd.</a></h1>
 				</div>
 				<!-- <div class="header-login">
 					<div class="top-nav-right">
@@ -112,12 +112,12 @@
 	    <div class="top-navg">
 	    	           <span class="menu"> <img src="Public/images/icon.png" alt=""/></span>
 				<ul class="res">
-				    <li><a href="/" class="hvr-sweep-to-bottom Home">Home</a></li> 
-					<li><a class="hvr-sweep-to-bottom About" href="About">About</a></li> 
-					<li><a class="hvr-sweep-to-bottom Services" href="Services">Services</a></li> 
+				    <li><a href="/" class="hvr-sweep-to-bottom Home">首页</a></li> 
+					<li><a class="hvr-sweep-to-bottom About" href="About">关于我们</a></li> 
+					<li><a class="hvr-sweep-to-bottom Services" href="Services">水果馆</a></li> 
 					<!-- <li><a class="hvr-sweep-to-bottom" href="Typo">Typo</a></li> -->
-					<li><a class="hvr-sweep-to-bottom Gallery" href="Gallery">Gallery</a></li> 
-					<li><a class="hvr-sweep-to-bottom ContactUs" href="ContactUs">ContactUs</a></li> 
+					<li><a class="hvr-sweep-to-bottom Gallery" href="Gallery">水果馆</a></li> 
+					<li><a class="hvr-sweep-to-bottom ContactUs" href="ContactUs">联系我们</a></li> 
 				 </ul>
 					<!-- script-for-menu -->
 						 <script>
@@ -241,13 +241,13 @@
 	<div class="container">
 		<div class="footer-main">
 			  <div class="col-md-4 ftr-grd">
-			  	 <h3>Get in Touch</h3>
-			  	 <p>8901 ibero  Road</p>
-			  	 <p>Nam libero tempore</p>
-			  	 <p>Phone: +148 5746 415</p>
+			  	 <h3>联系我们</h3>
+			  	 <p>小娘们的报亭</p>
+			  	 <p>小黑屋3号</p>
+			  	 <p>电话: +148 5746 415</p>
 			  </div>
 			  <div class="col-md-4 ftr-grd">
-			  	 <h3>Follow Us</h3>
+			  	 <h3>关注我们</h3>
 			  	 <ul>
 			  	 	<li><a href="#"><span class="fa"> </span></a></li>
 			  	 	<li><a href="#"><span class="tw"> </span></a></li>
@@ -262,7 +262,7 @@
 			  </div>
 			<div class="clearfix"> </div>
 			<div class="copy-right">
-			<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title=""></a> - Collect from <a href="http://www.cssmoban.com/" title="" target="_blank"></a></p>
+			<p>Copyright &copy; 1949-2017&nbsp;伤害凯歌国际贸易公司 版权所有<a href="http://www.cssmoban.com/" target="_blank" title=""></a></a></p>
 		   </div>
 		</div>
 	</div>
