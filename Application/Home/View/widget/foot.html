@@ -3,23 +3,26 @@
 		<div class="footer-main">
 			  <div class="col-md-4 ftr-grd">
 			  	 <h3>联系我们</h3>
-			  	 <p>小娘们的报亭</p>
-			  	 <p>小黑屋3号</p>
-			  	 <p>电话: +148 5746 415</p>
+			  	 <p>张先生</p>
+			  	 <p>电话: +86 137 6446 2713</p>
+			  	 <p>电话: +86 136 6156 2204</p>
+			  	 <p>邮箱: zkaige2014@163.com</p>
 			  </div>
 			  <div class="col-md-4 ftr-grd">
 			  	 <h3>关注我们</h3>
 			  	 <ul>
-			  	 	<li><a href="#"><span class="fa"> </span></a></li>
-			  	 	<li><a href="#"><span class="tw"> </span></a></li>
-			  	 	<li><a href="#"><span class="g"> </span></a></li>
-			  	 	<li><a href="#"><span class="in"> </span></a></li>
+			  	 	<li><a href="http://www.facebook.com/" target="_blank"><span class="fa"> </span></a></li>
+			  	 	<li><a href="http://twitter.com/" target="_blank"><span class="tw"> </span></a></li>
+			  	 	<li><a href="https://www.google.com/intl/zh-TW/+" target="_blank"><span class="g"> </span></a></li>
+			  	 	<li><a href="https://www.instagram.com" target="_blank"><span class="in"> </span></a></li>
 			  	 </ul>
 			  </div>
 			  <div class="col-md-4 ftr-grd">
-			  	 <h3>新闻订阅</h3>
-			  	 <p>留下你的邮箱 </p>
-			  	<label class="hvr-wobble-bottom"> <input type="submit" value="Send"></label>
+			  	<h3>新闻订阅</h3>
+			  	<input id="subscribeEmail" type="text" name="userEmail" placeholder="留下您的邮箱"><br>
+			  	<label class="hvr-wobble-bottom">
+			  		<input id="sendEmailSubmit" type="submit" value="Send">
+			  	</label>
 			  </div>
 			<div class="clearfix"> </div>
 			<div class="copy-right">
@@ -29,3 +32,26 @@
 	</div>
 </div>
 </body>
+<script type="text/javascript">
+	$('#sendEmailSubmit').click(function() {
+		var subscribeEmail = $('#subscribeEmail').val();
+		$.ajax({
+			url:'/ContactUs/addSubscribeEmail',
+			data:{
+				subscribeEmail:subscribeEmail
+			},
+			dataType:'json',
+			method:'post',
+			success:function(res){
+				if(res.code == 0 || res.code == '0'){
+					alert('success');
+					$('#subscribeEmail').val('');
+				}else{
+					alert(res.description);
+				}
+			}
+		})
+	})
+
+
+</script>
