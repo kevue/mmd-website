@@ -1,7 +1,9 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class ContactUsController extends Controller {
+use Think\Exception;
+
+class ContactUsController extends BaseController {
     public function index(){
     	$this->display('/Index/contact');
     }
@@ -16,4 +18,24 @@ class ContactUsController extends Controller {
     	echo json_encode($result);
 
     }
+
+	public function addComment(){
+
+		$comment['userName'] = I('post.userName');
+		$comment['userPhone'] = I('post.userPhone');
+		$comment['userEmail'] = I('post.userEmail');
+		$comment['userComment'] = I('post.userComment');
+
+		try{
+
+			$userCommentLogic = D('UserComment', 'Logic');
+			$result = $userCommentLogic->addUserComment($comment);
+
+			$return = $this->returnSuccessData($result);
+		}catch (Exception $e){
+			$return  = $this->returnException($e);
+		}
+
+		$this->ajaxReturn($return);
+	}
 }

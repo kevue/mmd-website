@@ -24,13 +24,13 @@
 				and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 			</div>	
 			<div class="contact-form">
-				<form>
-					<input type="text" value="姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-					<input type="email" value="邮箱" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-					<input type="text" value="电话" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone';}" required="">
-					<textarea type="text"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">备注...</textarea>
-					<input type="submit" value="提交" >
-				</form>
+				<div>
+					<input id="commentName" type="text" value="姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input id="commentEmail" type="email" value="邮箱" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input id="commentPhone" type="text" value="电话" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone';}" required="">
+					<textarea id="commentContent" type="text"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">备注...</textarea>
+					<input id="commitComment" type="submit" value="提交" >
+				</div>
 			</div>
 			
 		</div>
@@ -39,3 +39,32 @@
 	<include file="./Application/Home/View/widget/foot.html" />
 
 </html>
+<script>
+
+	$('#commitComment').click(function () {
+		var data = {
+			userName : $('#commentName').val(),
+			userEmail : $('#commentEmail').val(),
+			userPhone : $('#commentPhone').val(),
+			userComment : $('#commentContent').val()
+		}
+
+		$.ajax({
+			url:'/ContactUs/addComment',
+			data:data,
+			dataType:'json',
+			method:'post',
+			success:function(res){
+				if(res.code == 0 || res.code == '0'){
+					alert(res.description);
+					$('#commentName').val('');
+					$('#commitEmail').val('');
+					$('#commentPhone').val('');
+					$('#commentConent').val('');
+				}else{
+					alert(res.description);
+				}
+			}
+		})
+	})
+</script>
