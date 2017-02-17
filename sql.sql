@@ -2,7 +2,8 @@
 SQLyog Community v12.19 (64 bit)
 MySQL - 5.6.25 : Database - kg
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -37,3 +38,13 @@ CREATE TABLE `user_comment` (
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+CREATE TABLE `article` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `title` varchar(150) NOT NULL DEFAULT '' COMMENT '文章标题',
+  `cover` varchar(150) NOT NULL DEFAULT '' COMMENT '文章封面',
+  `content` longtext COMMENT '文章内容',
+  `create_time` int unsigned NOT NULL,
+  `update_time` int unsigned NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='文章';
