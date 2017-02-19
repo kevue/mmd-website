@@ -25,9 +25,16 @@ class BaseController extends Controller
     }
 
     protected function returnException($e){
+
         $return = array();
-        $return['errCode'] = $e->getCode();
-        $return['description'] = $e->getMessage();
+        if(!$e->getCode()){
+            $return['errCode'] = 0;
+            $return['description'] = '系统异常';
+        }else{
+            $return['errCode'] = $e->getCode();
+            $return['description'] = $e->getMessage();
+        }
+
         return $return;
     }
 }
