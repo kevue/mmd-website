@@ -28,6 +28,7 @@ class BaseController extends Controller
 
         $return = array();
         if(!$e->getCode()){
+            Log::write(json_encode($e));
             $return['errCode'] = 0;
             $return['description'] = '系统异常';
         }else{

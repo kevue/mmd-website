@@ -48,3 +48,13 @@ CREATE TABLE `article` (
   `update_time` int unsigned NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='文章';
+
+CREATE TABLE `user_mail_subscribe` (
+   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+   `user_email` varchar(256) DEFAULT NULL COMMENT ' 用户邮箱',
+   `user_agent` text COMMENT '用户UA',
+   `user_ip` varchar(16) DEFAULT NULL COMMENT '用户ip',
+   `create_time` int(11) unsigned DEFAULT NULL COMMENT '创建/提交时间',
+   `update_time` int(11) unsigned DEFAULT NULL COMMENT '更新时间',
+   PRIMARY KEY (`id`)
+ ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户邮件订阅表'

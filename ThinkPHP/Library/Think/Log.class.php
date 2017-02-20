@@ -99,6 +99,7 @@ class Log {
         if(empty($destination)){
             $destination = C('LOG_PATH').date('y_m_d').'.log';        
         }
+//        echo $destination;exit;
         self::$storage->write("{$level}: {$message}", $destination);
     }
 }

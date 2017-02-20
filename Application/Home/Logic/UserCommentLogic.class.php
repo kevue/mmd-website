@@ -38,4 +38,30 @@ class UserCommentLogic extends Model {
         return 'success';
     }
 
+    /**
+     * 用户新增邮箱关注
+     * @param $subscribeEmail
+     * @return string
+     */
+    public function addSubscribeEmail($subscribeEmail){
+
+        if(empty($subscribeEmail))
+            E('输入信息为空',900101);
+
+        if(empty($subscribeEmail['subscribeEmail']))
+            E('关注邮箱为空',900103);
+
+        $userSubscribeEmail['user_email'] = $subscribeEmail['subscribeEmail'];
+        $userSubscribeEmail['user_agent'] = $subscribeEmail['userAgent'];
+        $userSubscribeEmail['user_ip'] = $subscribeEmail['userIp'];
+
+        $userMailSubscribe = D('UserMailSubscribe');
+        $addResult = $userMailSubscribe->addUserMailSubscribe($userSubscribeEmail);
+        if(false === $addResult){
+            E('新增失败',100102);
+        }
+
+        return 'success';
+    }
+
 }
