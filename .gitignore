@@ -1,3 +1,5 @@
 Application/Runtime/
 Common/Conf/
+Application/Home/Conf/
+Application/Home/Logs/
 .idea/
