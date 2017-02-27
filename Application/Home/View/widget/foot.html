@@ -44,7 +44,7 @@
 			method:'post',
 			success:function(res){
 				if(res.code == 0 || res.code == '0'){
-					alert('success');
+					alert('订阅成功');
 					$('#subscribeEmail').val('');
 				}else{
 					alert(res.description);
